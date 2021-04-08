@@ -21,3 +21,12 @@ exports.up = function (knex) {
 exports.down = function (knex) {
   return knex.schema.dropTableIfExists("users");
 };
+
+// {
+//     "username": ,
+//     "passowrd": ,
+//     "first_name": ,
+//     "last_name": ,
+//     "email": ,
+//     "country_time_zone":,
+// }
